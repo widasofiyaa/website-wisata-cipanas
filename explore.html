@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <title>Jelajah</title>
+    <link rel="icon" href="">
+
+    <title>Explore</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">Wisata Cipanas</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#discover" class="nav-link">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galery" class="nav-link">Galeri</a>
+                    </li>
+                </ul>
+                <i class="ri-close-fill nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-3-fill"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="explore section container" id="explore">
+            <span class="section-sub">Wisata, Kuliner, UMKM, dan Akomodasi</span>
+            <h2 class="section-title">Kearifan Lokal</h2>
+
+            <div class="explore-nav">
+                <span class="explore-item active-explore" data-filter = "all">Semua</span>
+                <span class="explore-item" data-filter = ".wisata">Wisata</span>
+                <span class="explore-item" data-filter = ".kuliner">Kuliner</span>
+                <span class="explore-item" data-filter = ".budaya">UMKM</span>
+                <span class="explore-item" data-filter = ".akomodasi">Akomodasi</span>
+            </div>
+            <div class="explore-container grid">
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/greenaple.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cipanas Cianjur</span>
+                    <h3 class="explore-title"> Green Apple</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Green Apple merupakan perumahan di daerah Cipanas yang menghadirkan pengalaman liburan bersama keluarga menjadi menyenangkan. Disini bisa menemukan berbagai wahana mulai dari Kolam Renang hingga Sepeda Kayuh Bebek Air.  </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Tipe - <span>Wisata Alam</span></li>
+                                <li>Lokasi - <span>Cipanas</span></li>
+                                <li>Harga Tiket - <span>Rp 10.000</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/mandalawangi.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cibodas Cianjur</span>
+                    <h3 class="explore-title">Mandalawangi</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Bumi Perkemahan Mandalawangi Cibodas Camping Ground adalah Areal Bumi Perkemahan yang asri dan sejuk tepat berada di bawah kaki Gunung Gede Pangrango dengan berbagai macam view dan landscape yang bisa dipilih sesuai selera dan kebutuhan. Mulai dari tempat lokasi dekat Mandalawangi yang asri atau area pinggir sungai dengan pepohonan rindah bisa Anda pilih jika bermaksud mengadakan acara berkemah atau camping di Mandalawangi Cibodas.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Tipe - <span>Wisata Alam</span></li>
+                                <li>Lokasi - <span>Cibodas</span></li>
+                                <li>Harga Tiket - <span>Rp.27.500/Nett</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/kebunrayapotrait.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cibodas Cianjur</span>
+                    <h3 class="explore-title">Kebun Raya Cibodas</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Didirikan pada tanggal 11 April 1852 oleh Johannes Ellias Teijsmann, seorang kurator Kebun Raya Bogor pada waktu itu, dengan nama Bergtuin te Tjibodas (Kebun Pegunungan Cibodas). Pada awalnya dimaksudkan sebagai tempat aklimatisasi jenis-jenis tumbuhan asal luar negeri yang mempunyai nilai penting dan ekonomi yang tinggi, salah satunya adalah Pohon Kina (Cinchona calisaya). Kemudian berkembang menjadi bagian dari Kebun Raya Bogor dengan nama Cabang Balai Kebun Raya Cibodas. Mulai tahun 2003 status Kebun Raya Cibodas menjadi lebih mandiri sebagai Unit Pelaksana Teknis Balai Konservasi Tumbuhan Kebun Raya Cibodas di bawah Pusat Konservasi Tumbuhan Kebun Raya Bogor dalam kedeputian Ilmu Pengetahuan Hayati Lembaga Ilmu Pengetahuan Indonesia (LIPI).
+                                Lokasi Kebun Raya Cibodas – LIPI berada di kaki Gunung Gede dan Gunung Pangrango pada ketinggian kurang lebih 1.300 – 1.425 meter di atas permukaan laut dengan luas 84,99 hektar. Temperatur rata-rata 20,06 °C, kelembaban 80,82 % dan rata-rata curah hujan 2.950 mm per tahun. Kebun Raya Cibodas merupakan tempat yang nyaman untuk beristirahat sambil menikmati keindahan berbagai jenis tumbuhan yang berasal dari Indonesia dan negara-negara lain. Kebun Raya Cibodas berjarak ±100 KM dari Jakarta dan ± 80 KM dari Bandung.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Tipe - <span>Wisata Alam</span></li>
+                                <li>Lokasi - <span>Cibodas</span></li>
+                                <li>Harga Tiket - <span>Rp 15.500</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/venice copy.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cipanas Cianjur</span>
+                    <h3 class="explore-title">Little Venice</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Ada sebuah destinasi wisata bernama Little Venice yang menawarkan pemandangan khas Venesia. Ada sungai dan bangunan yang mirip dengan kota cantik di Italia tersebut. Little Venice ini berada di Villa Kota Bunga, Desa Batulawang, Kecamatan Cipanas, Kabupaten Cianjur, Jawa Barat.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Tipe - <span>Wisata Alam</span></li>
+                                <li>Lokasi - <span>Cibodas</span></li>
+                                <li>Harga Tiket - <span>Rp 25.000/nett on Weekdays dan Rp. 40.000/nett on Weekend></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/ggede.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cianjur</span>
+                    <h3 class="explore-title">Gunung Gede</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Gunung Gede merupakan salah satu gunung dipulau Jawa yang bertipe stratovolcano. Gunung Gede memiliki ketinggian 2.958mdpl.  Terdapat 6 pintu masuk menuju Gunung Gede Pangrango, yaitu Cibodas, Gunung Putri, Bodogol, Cisarua, Selabintana, dan Situgunung, deanga pintu masuk utama yaitu Cibodas , Gunung Putri, dan Selabintana.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Tipe : <span>Wisata Alam</span></li>
+                                <li>Lokasi : <span>Cibodas</span></li>
+                                <li>Harga Tiket :
+                                    <li> Pendakian Weekday (Pelajar) : Rp17.500 </li>
+                                    <li> Weekend (Pelajar) : Rp20.500 </li>
+                                    <li> Weekday : Rp29.000 </li>
+                                    <li> Weekend : Rp34.000 </li>
+                                    <li> Weekday : Rp320.000 </li>
+                                    <li> Weekend : Rp470.000 </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+
+                <div class="explore-content mix kuliner">
+                    <img src="assets/img/maranggi.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Pacet Cianjur</span>
+                    <h3 class="explore-title">Sate Maranggi Sari Asih</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="general-info">
+                        <ul>
+                            <li> Jam buka: Setiap Hari, 06:00-20:00 </li>
+                            <li> Lokasi: Jl. Raya Pacet, Cipendawa, Kec. Pacet, Kabupaten Cianjur, Jawa Barat 43253 </li>
+                            <li> Harga : Start from Rp2.500/tusuk </li>
+                            <li> Rating: 4,5 </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content mix kuliner">
+                    <img src="assets/img/ponyo2.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cipanas Cianjur</span>
+                    <h3 class="explore-title">RM Ponyo</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Di Rumah Makan Ponyo Puncak ini, anda akan banyak mendapat pelayanan yang memuaskan. Mulai dari masakan yang enak dan lezat, bangunan yang besar dan luas, serta suasana khas Sunda yang bersih dan menyejukkan. Rumah makan ini juga memiliki tempat parkir yang luas dan juga terdapat tempat ibadah bagi anda yang ingin menjalankan ibadah sholat. Terdapat juga taman yang dapat menambah relakasai anda saat mencicipi makanan. Selain makan, anda dapat menggunakan pelayanan lain dari Rumah Makan Ponyo ini, anda dapat menggunakan tempat ini untuk melangsungkan pesta pernikahan dan pesta lainnya. karena Rumah Makan Ponyo diseluruh cabang menyediakan jasa atau layanan ponyo wedding.
+                                Selain layanan ponyo wedding, Rumah Makan Ponyo juga menyediakan layanan ponyo catering yang dapat membantu anda menyediakan masakan bagi acara-acara tertentu. Anda dapat memilih menu masakan yang anda mau dengan jumlah yang ditentukan oleh pihak kami.</p>
+                        </div>
+                        <div class="general-info">
+                        <ul>
+                            <li>Jam Buka: Setiap hari, 09:00-21:00 </li>
+                            <li> Lokasi: Jl. Raya Puncak Gadog No.KM 85, Cimacan, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253 </li>
+                            <li> Rating: 4,2/5 (1.414 google reviews) </li>
+                            <li> Harga : Rp50.000 - Rp100.000/nett </li>
+                            <li> <a href="https://www.makanponyo.com/rumah-makan-di-puncak/#.YdCJXGhBy3A"> for more info </a> </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content mix akomodasi">
+                    <img src="assets/img/hotel cianjur.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Pacet Cianjur</span>
+                    <h3 class="explore-title">Hotel Cianjur</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>
+                                </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li> Alamat : Jl. Raya Cipanas Cipanas No.KM. 81,3, Gadog, Kec. Pacet, Kabupaten Cianjur, Jawa Barat 43253•(0263) 516480</li>
+                                <li> Hotel Bintang 3 </li>
+                                <li> Rating :4,3/5 (1.706 Google Review) </li>
+                                <li> Start from 311k/nett</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/airterjuncibereum2.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cisarua Cianjur</span>
+                    <h3 class="explore-title">Curug Cibereum</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>
+                                Air Terjun Cibeureum atau dalam bahasa sunda disebut Curug Cibeureum
+                                adalah salah satu wisata alam yang terletak di bawah kaki Gunung Gede Pangrongo sehingga
+                                masih termasuk dalam kawasan Taman Nasional Gunung Gede Pangrango. Medan yang
+                                menanjak dengan undakan bebatuan dikelilingi hutan yang lebat merupakan daya tarik tersendiri
+                                dari Curug Cibeureum ini.
+                                
+                                </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Alamat : JL. Cisarua Puncak KM. 10, Desa Cilember, Kec. Cisarua, Puncak, Cimacan, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253</li>
+                                <li>Harga Tiket : Rp.16.000 - 18.500/orang</li>
+                                <li>Jam : 08.00 - 17.00 WIB</li>
+                                <li> <a href="https://wisatacibodas.com/curug-cibeureum/"> for more info </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content mix kuliner">
+                        <img src="assets/img/bumiaki.png" alt=""> 
+                        <!-- <div class="explore-text"> -->
+                        <span class="explore-sub">Cipanas Cianjur</span>
+                        <h3 class="explore-title">RM Bumi Aki</h3>
+                        <button href="" class="button button-detail">Lihat Detail</button>
+                        <!-- </div> -->
+                        <div class="explore-detail">
+                            <div class="description">
+                                <p> <ul>
+                                <li> RM. Bumi Aki merupakan restoran keluarga yang menyajikan sajian tradisional dengan cita rasa sunda. </li>
+                                <li> Alamat : Jl. Raya Puncak - Gadog No.59, Ciloto, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253.</li>
+                                <li> Menu Rekomendasi : Nila Bakar Sambal Cobek, Sayur Asem, Sate Ayam (menu). </li>
+                                <li> Jam Buka : 07.00 - 21.00 WIB </li>
+                                <li> Rating : 4.6/5 (10,488 google reviews) </li>
+                                <li> <a href="https://www.bumiaki.com/home"> for more info </a> </li>
+                                </ul>   
+                                    </p>
+                            </div>
+                            <div class="general-info">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="explore-content mix akomodasi">
+                        <img src="assets/img/RSUDCimacan copy.jpg" alt=""> 
+                        <!-- <div class="explore-text"> -->
+                        <span class="explore-sub">Pacet Cianjur</span>
+                        <h3 class="explore-title">RSUD Cimacan</h3>
+                        <button href="" class="button button-detail">Lihat Detail</button>
+                        <!-- </div> -->
+                        <div class="explore-detail">
+                            <div class="description">
+                                <p>Rumah Sakit Umum Daerah Cimacan adalah sebuah rumah sakit yang terletak di
+                                    Kabupaten Cianjur, Jawa Barat. RSUD Cimacan adalah rumah sakit umum yang berada dibawah
+                                    otoritas Pemerintah Kabupaten Cianjur. Rumah Sakit Umum Daerah Cimacan pada awalnya
+                                    adalah Puskesmas Pacet (Cimacan) yang sudah berdiri sejak tahun 1953, kemudian pada tahun
+                                    1981 statusnya meningkat menjadi Puskesmas DTP dan berubah status menjadi Rumah Sakit.
+                                    Posisi Rumah Sakit Umum Daerah Cimacan yang strategis terletak di sebelah utara kabupaten
+                                    Cianjur yang merupakan daerah wisata alam dan villa yang cukup terkenal antara jalur Bandung
+                                    - Jakarta.
+                                    </p>
+                            </div>
+                            
+                        </div>
+                </div>
+
+                <div class="explore-content mix kuliner">
+                    <img src="assets/img/roof copy.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cipanas Cianjur</span>
+                    <h3 class="explore-title">Roofpark Cianjur</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Restoran yang menyediakan menu Western & Tradisional. Untuk menikmati sejuknya Restoran Roofpark ini kamu dapat melakukan reservasi atau langsung datang. Roofpark memiliki fasilitas seperti Billiard, Karaoke, Live Music, Darts Game, Play Ground, Free Wifi & Toilet yang bersih dan nyaman.
+
+                               
+                                
+                                </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li> Lokasi : Istana Raja FO, Jl. Raya Puncak - Cianjur, Palasari, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253</li>
+                                <li>Waktu Operasional : Senin-Jumat (09.00-23.00 WIB), Sabtu (09.00-00.00 WIB), Minggu (09.00-23.00 WIB)</li>
+                                <li>Rating : 4.6 dari 5></li>
+                                <li>  <a href="https://api.whatsapp.com/send/?phone=%2B6282261187722&text&app_absent=0"> Contact Person </a></li>
+                                <li>  <a href="https://roofpark.co.id/menu-rpc-rpb/#dearflip-df_2074/1/"> for more info </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content mix wisata">
+                    <img src="assets/img/telagabiru copy.jpg" alt=""> 
+                    <!-- <div class="explore-text"> -->
+                    <span class="explore-sub">Cipanas Cianjur</span>
+                    <h3 class="explore-title">Telaga Biru</h3>
+                    <button href="" class="button button-detail">Lihat Detail</button>
+                    <!-- </div> -->
+                    <div class="explore-detail">
+                        <div class="description">
+                            <p>Kamu suka destinasi dengan penuh tantangan? Kamu harus coba mengunjungi Telaga Biru. Sepanjang jalan menuju Telaga Biru kamu akan disajikan pemandangan sawah-sawah para warga setempat yang menghijaukan mata. Objek wisata ini menyajikan pemandangan yang membuatmu melupakan kepenatan kota-kota besar dan merasakan alam yang indah terasa memeluk para pengunjungnya. Rekomendasi waktu untuk berkunjung ke tempat ini adalah saat cuaca cerah dan bukan musim penghujan. Saat berkunjung ke tempat ini pastikan kamu untuk membawa kamera agar bisa berswafoto di spot-spot keren Telaga Biru dengan warna air yang kebiru-biruan. Sangat disayangkan jika orang Cianjur dan daerah lainnya tidak berkunjung ke Telaga Biru. Destinasi wisata yang berada di kawasan Taman Nasional Gunung Gede Pangrango ini memiliki daya tariknya tersendiri yaitu, air telaga yang bisa berubah warna dari warna coklat hijau, biru, dan biru tosca yang dipengaruhi oleh pertumbuhan alga di dalamnya. Wisata ini tidak hanya menyajikan telaganya indah tapi juga terdapat beberapa fasilitas disana seperti area parkir, mushala, MCK, penginapan, dan lain-lainnya.
+
+                           
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Lokasi - Sindangjaya, Cipanas, Cianjur Regency, West Java 43253</li>
+                                <li>Harga Tiket - Rp 5.000</li>
+                                <li>Jam Operasional - 07.30 - 17.00 WIB</li>
+                                <li>  <a href="https://www.google.com/maps/place/Telaga+Biru/@-6.7497273,106.9902871,15z/data=!4m12!1m6!3m5!1s0x0:0xfd6629c338f0a833!2sBlue+Lake+Gardens+Cibodas!8m2!3d-s"> Location </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="explore-popup">
+        <div class="ep-inner">
+          <div class="ep-content">
+            <div class="ep-header">
+              <button class="button ep-close"><i class="ri-close-line"></i></i></button>
+              <div class="ep-thumbnail">
+                <img src="assets/img/telagabiru.jpg" alt="ep-thumbnail" />
+              </div>
+              <h3></h3>
+            </div>
+            <div class="ep-body"></div>
+          </div>
+        </div>
+    </div>
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div>
+                <a href="#" class="footer-logo">
+                    <img src="assets/img/footer.png" alt="" class="footer-logo-img">Wisata Cipanas
+                </a>
+                <p class="footer-description">
+                    Website Informasi<br>Destinasi Wisata<br>di Kecamatan Cipanas
+                </p>
+            </div>
+            <div>
+                <h3 class="footer-title">Website</h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#about" class="footer-link">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="#destination" class="footer-link">Destinasi</a>
+                    </li>
+                    <li>
+                        <a href="#galery" class="footer-link">Galeri</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-title">Kontak</h3>
+                <p class="footer-address">Jl. Pahlawan No. 73<br>
+                    Kecamatan Cipanas Kabupaten Cianjur <br> Provinsi Jawa Barat
+                    Kode Pos 43253</p>
+                <a href="mailto:desa@cipanas.desa.id?subject=Wisata%20Desa%20Cipanas">kecamatan@cipanas.desa.id</a>
+            </div>
+            <div>
+                <h3 class="footer-title">Website ini dibangun <br> bekerjasama dengan</h3>
+
+                <div class="footer-aviables">
+                    <img src="assets/img/telu-logo.png" alt="" class="footer-aviable-img">
+                </div>
+            </div>
+        </div>
+        <span class="footer-copy">&#169; Telkom University. All rigths reserved</span>
+    </footer>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
